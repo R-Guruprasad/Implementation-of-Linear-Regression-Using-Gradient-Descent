@@ -20,16 +20,22 @@ Program to implement the linear regression using gradient descent.
 Developed by: R Guruprasad
 RegisterNumber: 212222240033
 */
+```
+```
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 data = pd.read_csv('/content/ex1 (1).txt', header = None)
+```
+```
 plt.scatter(data[0], data[1])
 plt.xticks(np.arange(5, 30, step = 5))
 plt.yticks(np.arange(-5, 30, step = 5))
 plt.xlabel("Population of City (10,000s)")
 plt.ylabel("Profit ($10,000)")
 plt.title("Profit Prediction")
+```
+```
 def computeCost(X,y,theta):
     """
     Test in a numpy array x, y theta and generate the cost function
@@ -45,8 +51,9 @@ m=data_n[:,0].size
 X=np.append(np.ones((m, 1)), data_n[:, 0].reshape(m, 1), axis = 1)
 y=data_n[:,1].reshape(m,1)
 theta=np.zeros((2,1))
-
 computeCost(X,y,theta) # Call the function
+```
+```
 def gradientDescent(X,y,theta,alpha,num_iters):
   """
   Take in numpy array X, y and theta and update theta by taking num_oters gradient steps
@@ -72,6 +79,8 @@ plt.plot(J_history)
 plt.xlabel("Iteration")
 plt.ylabel("$J(\Theta)$")
 plt.title("Cost function using Gradient Descent")
+```
+```
 plt.scatter(data[0],data[1])
 x_value=[x for x in range(25)]
 y_value = [y*theta[1]+theta[0] for y in x_value]
@@ -81,6 +90,8 @@ plt.yticks(np.arange(-5, 30, step = 5))
 plt.xlabel("Population of City (10,000s)")
 plt.ylabel("Profit ($10,000)")
 plt.title("Profit Prediction")
+```
+```
 def predict(x,theta):
    """
     Takes in numpy array of x and theta and return the predicted value of y based on theta
