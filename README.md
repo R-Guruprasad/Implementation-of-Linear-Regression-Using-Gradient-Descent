@@ -111,10 +111,17 @@ print("For population = 70,000, we predict a profit of $"+str(round(predict2, 0)
 ## Output:
 ![image](https://github.com/R-Guruprasad/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119390308/3a5c3a65-fbd8-403d-9148-4392b7a5d99b)
 
+![image](https://github.com/R-Guruprasad/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119390308/0785b386-fe1b-4d65-b1c8-28b0ce650275)
+
+![image](https://github.com/R-Guruprasad/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119390308/20d30890-b364-4210-b277-903b98abdb45)
+
 ![image](https://github.com/R-Guruprasad/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119390308/3b912404-63ed-41c3-ac00-245f935cb252)
 
 ![image](https://github.com/R-Guruprasad/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119390308/a3a9deac-e585-4a91-8a23-d1a0068b821c)
 
+![image](https://github.com/R-Guruprasad/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119390308/833d5162-8a05-4f62-b10c-106b714661a5)
+
+![image](https://github.com/R-Guruprasad/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119390308/a5985d83-0658-4730-82cd-787b08cb950c)
 
 ## Result:
 Thus the program to implement the linear regression using gradient descent is written and verified using python programming.
